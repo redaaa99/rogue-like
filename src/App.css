@@ -1,0 +1,63 @@
+
+#gameInfo{
+  color : white;
+  width: 40%;
+  font-family: monospace;
+  font-size: 20pt;
+  margin-left: 30px;
+  text-align: left;
+}
+
+
+#app{
+  display: flex;
+}
+
+#Board{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px black solid;
+  height: 500px;
+  width : 500px;
+  box-shadow: 1px 1px 10px white;
+}
+
+.cell{
+  width : 10px;
+  height: 10px;
+  margin: 0px;
+}
+#app{
+  margin-top: 30px;
+}
+
+.empty{
+  background-color: beige;
+}
+
+.full{
+  background-color: #444444;
+}
+
+
+.door{
+  background-color: purple;
+}
+
+.enemy{
+  background-color: red;
+}
+
+.player{
+  background-color: blue;
+}
+.weapon{
+  background-color: orange;
+}
+
+@media all and (max-width: 950px) {
+  #app{
+    display: block;
+  }
+}
