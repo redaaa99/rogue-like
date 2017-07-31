@@ -21,6 +21,7 @@
   height: 500px;
   width : 500px;
   box-shadow: 1px 1px 10px white;
+  border : 10px #333 solid;
 }
 
 .cell{
@@ -54,6 +55,10 @@
 }
 .weapon{
   background-color: orange;
+}
+
+.door{
+  background-color: #fdfff8;
 }
 
 @media all and (max-width: 950px) {
