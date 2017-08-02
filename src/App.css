@@ -42,12 +42,16 @@
 }
 
 
-.door{
+.portal{
   background-color: purple;
 }
 
 .enemy{
   background-color: red;
+}
+
+.heal{
+  background-color: #0bff00;
 }
 
 .player{
