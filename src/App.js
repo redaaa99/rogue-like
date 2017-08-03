@@ -16,7 +16,12 @@ const ROOM_SIZE_RANGE = [7, 25];
 const c= { GRID_HEIGHT, GRID_WIDTH, MAX_ROOMS, ROOM_SIZE_RANGE};
 let rooms =[];
 
+<<<<<<< HEAD
 let spawnX,spawnY;
+=======
+let spawnX;
+let spawnY;
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
 let weapons = [
     {name : "knife", attack : 12},
     {name : "Dagger", attack : 15},
@@ -61,11 +66,16 @@ function placeHeals(grid,healsNumber) {
 
     return grid;
 }
+<<<<<<< HEAD
 function placePlayer(grid) {
     spawnX = rooms[0].x+_.random(0,rooms[0].width-1);
     spawnY = rooms[0].y+_.random(0,rooms[0].height-1);
     grid[spawnY][spawnX].type = "player";
 
+=======
+function placePlayer(grid,spawnX,spawnY) {
+    grid[spawnY][spawnX].type = "player";
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
     return grid;
 }
 function placeEnemies(grid,enemiesNumber,level) {
@@ -108,7 +118,11 @@ function placeEnemies(grid,enemiesNumber,level) {
 
     return grid;
 }
+<<<<<<< HEAD
 function placeWeapons(grid,level) {
+=======
+function placeWeapon(grid,level) {
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
     let room;
     let x;
     let y;
@@ -148,10 +162,15 @@ function placePortal(grid) {
 
 
 
+<<<<<<< HEAD
 function newDungeon(healsNumber,enemyNumbers,level = 1) {
     let grid;
     enemies = [];
     rooms =[];
+=======
+function newDungeon(healsNumber,enemyNumbers,lastLevel=false,level = 1) {
+    enemies = [];
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
     const createDungeon = () => {
         // HELPER FUNCTIONS FOR CREATING THE MAP
         const isValidRoomPlacement = (grid, {x, y, width = 1, height = 1}) => {
@@ -282,9 +301,17 @@ function newDungeon(healsNumber,enemyNumbers,level = 1) {
 
         return growMap(grid, [firstRoom]);
     };
+<<<<<<< HEAD
     grid = createDungeon();
     grid = placePlayer(grid);
     if(level !==4)
+=======
+    let grid = createDungeon();
+    spawnX = rooms[0].x+_.random(0,rooms[0].width-1);
+    spawnY = rooms[0].y+_.random(0,rooms[0].height-1);
+    grid = placePlayer(grid,spawnX,spawnY);
+    if(!lastLevel)
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
     {
         grid = placePortal(grid);
     }else
@@ -293,24 +320,42 @@ function newDungeon(healsNumber,enemyNumbers,level = 1) {
     }
     grid = placeHeals(grid,healsNumber);
     grid = placeEnemies(grid,enemyNumbers,level);
+<<<<<<< HEAD
     grid = placeWeapons(grid,level);
     return grid;
 }
 
 let youDied = false;
+=======
+    grid = placeWeapon(grid,level);
+    return grid;
+}
+
+
+
+
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
 
 class App extends Component {
     constructor(props)
     {
         super(props);
         this.state={
+<<<<<<< HEAD
             gameArray:newDungeon(10,10,1),
+=======
+            gameArray:newDungeon(10,10,false,1),
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
             playerPositionX :spawnX, // horizontal
             playerPositionY : spawnY,// Vertical
             health : 100,
             weapon : "Hands",
             level : 1,
+<<<<<<< HEAD
             attack : 8+3*1, //level
+=======
+            attack : 8+5*1, //level
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
             nextLevel : 100,
             dungeon : 1
         };
@@ -325,18 +370,39 @@ class App extends Component {
         this.setState({health : this.state.health + 20});
     }
     attackedEnemy(id){
+<<<<<<< HEAD
         let myheal = this.state.health;
         if(myheal-enemies[id].attack<=0)
         {
             youDied = true;
             return false;
+=======
+
+        if(this.state.health-enemies[id].attack<=0)
+        {
+            this.setState({gameArray:newDungeon(10,10,false,1),
+                playerPositionX :spawnX, // horizontal
+                playerPositionY : spawnY,// Vertical
+                health : 100,
+                weapon : "Hands",
+                level : 1,
+                attack : 8+5*1, //level
+                nextLevel : 100,
+                dungeon : 1},function () {
+                /*console.log(aarray===this.state.gameArray)*/;
+            });
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
         }
         enemies[id].health -= this.state.attack;
         this.setState({health : this.state.health-enemies[id].attack});
         if(enemies[id].health<=0) {
             if(this.state.nextLevel-20<=0)
             {
+<<<<<<< HEAD
                 this.setState({level : this.state.level+1,nextLevel : 100,attack : this.state.attack+(this.state.level+1)*3});
+=======
+                this.setState({level : this.state.level+1,nextLevel : 100});
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
             }
             else
             {
@@ -353,6 +419,10 @@ class App extends Component {
     }
     possibleToMove(tile)
     {
+<<<<<<< HEAD
+=======
+        let died;
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
         if(tile.type==="empty")
         {
             return true;
@@ -364,7 +434,15 @@ class App extends Component {
         }
         if(tile.type==="enemy")
         {
+<<<<<<< HEAD
             return this.attackedEnemy(tile.id);
+=======
+            died = this.attackedEnemy(tile.id);
+            if(died)
+            {
+                return true;
+            }
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
         }
         if(tile.type==="weapon")
         {
@@ -408,6 +486,7 @@ class App extends Component {
                 newPosition.x += 1;
             }
         }
+<<<<<<< HEAD
         if(youDied)
         {
             alert("You Died");
@@ -425,11 +504,17 @@ class App extends Component {
             youDied = false;
             return;
         }
+=======
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
         helpMatrix = refreshPosition(helpMatrix,actualPosition,newPosition);
         this.setState({gameArray: helpMatrix,playerPositionX:newPosition.x,playerPositionY:newPosition.y});
     }
   render() {
+<<<<<<< HEAD
       /*let  propObjectForCamera = {
+=======
+      let  propObjectForCamera = {
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
             x:this.state.playerPositionX,
             y:this.state.playerPositionY
       };
@@ -440,6 +525,7 @@ class App extends Component {
           level : this.state.level,
           nextLevel : this.state.nextLevel,
           dungeon : this.state.dungeon
+<<<<<<< HEAD
       };*/
     return (
       <div id="app" className="container-fluid">
@@ -455,6 +541,13 @@ class App extends Component {
               x: this.state.playerPositionX,
               y: this.state.playerPositionY
           }} gameArray={this.state.gameArray}></Board>
+=======
+      };
+    return (
+      <div id="app" className="container-fluid">
+          <GameState gameArray={this.state.gameArray} playerState={playerState} ></GameState>
+          <Board playerPosition={propObjectForCamera} gameArray={this.state.gameArray}></Board>
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
       </div>
     );
   }
@@ -506,9 +599,16 @@ class Board extends Component {
     constructor(props)
     {
       super(props);
+<<<<<<< HEAD
         if((this.props.playerPosition.y>25) && (this.props.playerPosition.y<75))
         {
             if((this.props.playerPosition.x>25) && (this.props.playerPosition.x<75))
+=======
+
+        if((this.props.playerPosition.y>=25) && (this.props.playerPosition.y<=75))
+        {
+            if((this.props.playerPosition.x>=25) && (this.props.playerPosition.x<=75))
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
             {
                 this.state = {
                     displayFromx : 25,
@@ -568,9 +668,15 @@ class Board extends Component {
     }
     componentWillReceiveProps(nextProps)
     {
+<<<<<<< HEAD
         if((nextProps.playerPosition.y>25) && (nextProps.playerPosition.y<75))
         {
             if((nextProps.playerPosition.x>25) && (nextProps.playerPosition.x<75))
+=======
+        if((nextProps.playerPosition.y>=25) && (nextProps.playerPosition.y<=75))
+        {
+            if((nextProps.playerPosition.x>=25) && (nextProps.playerPosition.x<=75))
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
             {
                 this.setState({
                     displayFromx : 25,
@@ -626,6 +732,10 @@ class Board extends Component {
             }
         }
         return (
+<<<<<<< HEAD
+=======
+
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
             <div id="Board" >
                 {c}
             </div>
@@ -666,8 +776,11 @@ $(document).keydown(function(e){
         case 40:
             $(events).trigger("move","down");
             break;
+<<<<<<< HEAD
         default:
             break;
+=======
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
     }
 });
 

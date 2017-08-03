@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6ff452fd-d089-442e-915a-3d252e94a109" name="Default" comment="" />
+=======
+    <list default="true" id="6ff452fd-d089-442e-915a-3d252e94a109" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+    </list>
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,12 +21,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+=======
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
               <folding />
             </state>
           </provider>
@@ -27,8 +44,13 @@
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="459">
               <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+=======
+            <state relative-caret-position="182">
+              <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
               <folding />
             </state>
           </provider>
@@ -37,14 +59,23 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="387">
               <caret line="412" column="30" lean-forward="false" selection-start-line="412" selection-start-column="30" selection-end-line="412" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+=======
+            <state relative-caret-position="1332">
+              <caret line="340" column="13" lean-forward="true" selection-start-line="338" selection-start-column="28" selection-end-line="340" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#498#652#0" expanded="false" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
                 <element signature="n#!!block;n#refreshPosition#0" expanded="false" />
                 <element signature="n#!!block;n#placeHeals#0" expanded="false" />
                 <element signature="n#!!block;n#placePlayer#0" expanded="false" />
                 <element signature="n#!!block;n#placeEnemies#0" expanded="false" />
+<<<<<<< HEAD
                 <element signature="n#!!block;n#placeWeapons#0" expanded="false" />
                 <element signature="n#!!block;n#placePortal#0" expanded="false" />
                 <element signature="n#!!block;n#newDungeon#0" expanded="false" />
@@ -67,6 +98,19 @@
                 <element signature="e#17580#17839#0" expanded="false" />
                 <element signature="e#17861#18122#0" expanded="false" />
                 <element signature="e#18985#19371#0" expanded="false" />
+=======
+                <element signature="n#!!block;n#placeWeapon#0" expanded="false" />
+                <element signature="n#!!block;n#placePortal#0" expanded="false" />
+                <element signature="n#!!block;n#newDungeon#0" expanded="false" />
+                <element signature="e#3586#8438#0" expanded="false" />
+                <element signature="n#!!block;n#addHealth#0;n#App#0" expanded="false" />
+                <element signature="n#!!block;n#changeWeapon#0;n#App#0" expanded="false" />
+                <element signature="n#!!block;n#possibleToMove#0;n#App#0" expanded="false" />
+                <element signature="n#!!block;n#move#0;n#App#0" expanded="false" />
+                <element signature="n#GameState#0" expanded="false" />
+                <element signature="n#!!block;n#constructor#0;n#Board#0" expanded="false" />
+                <element signature="n#!!block;n#componentWillReceiveProps#0;n#Board#0" expanded="false" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
               </folding>
             </state>
           </provider>
@@ -81,7 +125,10 @@
       <find>props</find>
       <find>this.props</find>
       <find>console</find>
+<<<<<<< HEAD
       <find>huma</find>
+=======
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
     </findStrings>
     <replaceStrings>
       <replace>getRandomInt</replace>
@@ -90,15 +137,25 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+=======
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/index.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
+=======
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
       </list>
     </option>
   </component>
@@ -167,7 +224,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+=======
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -198,11 +259,15 @@
       <workItem from="1501340436993" duration="19636000" />
       <workItem from="1501498450604" duration="10848000" />
       <workItem from="1501690557548" duration="16357000" />
+<<<<<<< HEAD
       <workItem from="1501760040453" duration="8637000" />
+=======
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="67335000" />
   </component>
   <component name="ToolWindowManager">
@@ -214,6 +279,19 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.49791667" order="5" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="58698000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="357" y="-4" width="1303" height="780" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24596465" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -235,11 +313,16 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+<<<<<<< HEAD
       <option name="time" value="24" />
+=======
+      <option name="time" value="14" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -292,6 +375,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -314,10 +399,15 @@
           <caret line="193" column="49" lean-forward="false" selection-start-line="193" selection-start-column="49" selection-end-line="193" selection-end-column="49" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="e#498#652#0" expanded="false" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
             <element signature="n#!!block;n#refreshPosition#0" expanded="false" />
             <element signature="n#!!block;n#placeHeals#0" expanded="false" />
             <element signature="n#!!block;n#placePlayer#0" expanded="false" />
             <element signature="n#!!block;n#placeEnemies#0" expanded="false" />
+<<<<<<< HEAD
             <element signature="n#!!block;n#placeWeapons#0" expanded="false" />
             <element signature="n#!!block;n#placePortal#0" expanded="false" />
             <element signature="n#!!block;n#newDungeon#0" expanded="false" />
@@ -340,6 +430,19 @@
             <element signature="e#17580#17839#0" expanded="false" />
             <element signature="e#17861#18122#0" expanded="false" />
             <element signature="e#18985#19371#0" expanded="false" />
+=======
+            <element signature="n#!!block;n#placeWeapon#0" expanded="false" />
+            <element signature="n#!!block;n#placePortal#0" expanded="false" />
+            <element signature="n#!!block;n#newDungeon#0" expanded="false" />
+            <element signature="e#3586#8438#0" expanded="false" />
+            <element signature="n#!!block;n#addHealth#0;n#App#0" expanded="false" />
+            <element signature="n#!!block;n#changeWeapon#0;n#App#0" expanded="false" />
+            <element signature="n#!!block;n#possibleToMove#0;n#App#0" expanded="false" />
+            <element signature="n#!!block;n#move#0;n#App#0" expanded="false" />
+            <element signature="n#GameState#0" expanded="false" />
+            <element signature="n#!!block;n#constructor#0;n#Board#0" expanded="false" />
+            <element signature="n#!!block;n#componentWillReceiveProps#0;n#Board#0" expanded="false" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
           </folding>
         </state>
       </provider>
@@ -366,10 +469,15 @@
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="e#498#652#0" expanded="false" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
             <element signature="n#!!block;n#refreshPosition#0" expanded="false" />
             <element signature="n#!!block;n#placeHeals#0" expanded="false" />
             <element signature="n#!!block;n#placePlayer#0" expanded="false" />
             <element signature="n#!!block;n#placeEnemies#0" expanded="false" />
+<<<<<<< HEAD
             <element signature="n#!!block;n#placeWeapons#0" expanded="false" />
             <element signature="n#!!block;n#placePortal#0" expanded="false" />
             <element signature="n#!!block;n#newDungeon#0" expanded="false" />
@@ -392,6 +500,19 @@
             <element signature="e#17580#17839#0" expanded="false" />
             <element signature="e#17861#18122#0" expanded="false" />
             <element signature="e#18985#19371#0" expanded="false" />
+=======
+            <element signature="n#!!block;n#placeWeapon#0" expanded="false" />
+            <element signature="n#!!block;n#placePortal#0" expanded="false" />
+            <element signature="n#!!block;n#newDungeon#0" expanded="false" />
+            <element signature="e#3586#8438#0" expanded="false" />
+            <element signature="n#!!block;n#addHealth#0;n#App#0" expanded="false" />
+            <element signature="n#!!block;n#changeWeapon#0;n#App#0" expanded="false" />
+            <element signature="n#!!block;n#possibleToMove#0;n#App#0" expanded="false" />
+            <element signature="n#!!block;n#move#0;n#App#0" expanded="false" />
+            <element signature="n#GameState#0" expanded="false" />
+            <element signature="n#!!block;n#constructor#0;n#Board#0" expanded="false" />
+            <element signature="n#!!block;n#componentWillReceiveProps#0;n#Board#0" expanded="false" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
           </folding>
         </state>
       </provider>
@@ -439,30 +560,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="207">
           <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+=======
+        <state relative-caret-position="144">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="459">
           <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+=======
+        <state relative-caret-position="182">
+          <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="387">
           <caret line="412" column="30" lean-forward="false" selection-start-line="412" selection-start-column="30" selection-end-line="412" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+=======
+        <state relative-caret-position="1332">
+          <caret line="340" column="13" lean-forward="true" selection-start-line="338" selection-start-column="28" selection-end-line="340" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#498#652#0" expanded="false" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
             <element signature="n#!!block;n#refreshPosition#0" expanded="false" />
             <element signature="n#!!block;n#placeHeals#0" expanded="false" />
             <element signature="n#!!block;n#placePlayer#0" expanded="false" />
             <element signature="n#!!block;n#placeEnemies#0" expanded="false" />
+<<<<<<< HEAD
             <element signature="n#!!block;n#placeWeapons#0" expanded="false" />
             <element signature="n#!!block;n#placePortal#0" expanded="false" />
             <element signature="n#!!block;n#newDungeon#0" expanded="false" />
@@ -485,6 +625,19 @@
             <element signature="e#17580#17839#0" expanded="false" />
             <element signature="e#17861#18122#0" expanded="false" />
             <element signature="e#18985#19371#0" expanded="false" />
+=======
+            <element signature="n#!!block;n#placeWeapon#0" expanded="false" />
+            <element signature="n#!!block;n#placePortal#0" expanded="false" />
+            <element signature="n#!!block;n#newDungeon#0" expanded="false" />
+            <element signature="e#3586#8438#0" expanded="false" />
+            <element signature="n#!!block;n#addHealth#0;n#App#0" expanded="false" />
+            <element signature="n#!!block;n#changeWeapon#0;n#App#0" expanded="false" />
+            <element signature="n#!!block;n#possibleToMove#0;n#App#0" expanded="false" />
+            <element signature="n#!!block;n#move#0;n#App#0" expanded="false" />
+            <element signature="n#GameState#0" expanded="false" />
+            <element signature="n#!!block;n#constructor#0;n#Board#0" expanded="false" />
+            <element signature="n#!!block;n#componentWillReceiveProps#0;n#Board#0" expanded="false" />
+>>>>>>> 41daffc076e126a39b2f63bb28891506c3031106
           </folding>
         </state>
       </provider>
